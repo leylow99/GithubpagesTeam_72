@@ -9,10 +9,10 @@
   </head>
   <body>
     <nav
-      class="relative w-full mx-auto h-[80px] items-center p-6 my-auto bg-[#154ED5] text-[#fff]"
+      class="relative w-full mx-auto h-[80px] items-center sm:p-16 md:p-7 my-auto bg-[#154ED5] text-[#fff]"
     >
       <div class="flex justify-start">
-        <div class="ml-20">
+        <div class="ml-1 mx-auto">
           <img src="Logo/Logo White.png" alt="logo image" width="250px" />
         </div>
         <!-- menu items -->
@@ -38,24 +38,22 @@
     <section id="hero" class="relative">
       <!-- flex Container -->
       <div
-        class="container relative sector flex z-10 flex-col md:flex-row items-center px-6 mx-auto  space-y-0 md:space-y-0"
+        class="container relative text-left sector flex z-10 flex-col md:flex-row items-center px-6 mx-auto space-y-0 md:space-y-0"
       >
         <!-- left item  -->
         <div class="flex flex-col mt-20 md:w-1/2">
-          <h1
-            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
-          >
+          <h1 class="max-w-md text-5xl font-bold md:text-5xl text-left">
             <span class="text-[#154ED5] leading-snug"
               >Quickly Generate<br /></span
             ><span class="text-[#0D2F80] leading-snug"
               >personalised<br />Terms & Conditions</span
             >
           </h1>
-          <p class="max-w-sm text-center mt-10 text-[#2D2D2D] md:text-left">
+          <p class="max-w-sm sm:text-3xl mt-10 text-[#2D2D2D] text-left">
             and up to date <span class="font-bold">Privacy Policy</span>
           </p>
           <p
-            class="max-w-sm text-center mt-10 text-[#154ED5] md:text-left md:max-w-xl"
+            class="max-w-sm sm:text-3xl mt-10 text-[#154ED5] text-left md:max-w-xl"
           >
             Need a meaty, jargon-free and comprehensive terms of service<br />template?
             Our free terms and conditions generator is your one-stop solution to
@@ -63,7 +61,7 @@
           </p>
           <a
             href=""
-            class="mt-10 max-w-sm p-2 mb-2 text-center px-2 pt-2 baseline bg-[#154ED5] text-[#fff] rounded-md md:text-center md:w-52 md:mb-20 md:py-2 md:px-1"
+            class="mt-10 max-w-sm sm:p-6 sm:mb-9 text-center sm:text-3xl px-2 pt-2 baseline bg-[#154ED5] text-[#fff] rounded-md md:text-center md:w-52 md:mb-20 md:py-2 md:px-1"
             >Get Started</a
           >
         </div>
@@ -75,8 +73,8 @@
           />
         </div>
       </div>
-      <div class="absolute right-0 top-0 h-full" >
-        <img class="h-full " src="pictures/hero section blue.png" alt="">
+      <div class="absolute h-96 bottom-0 right-0 md:top-0 md:h-full">
+        <img class="h-full" src="pictures/hero section blue.png" alt="" />
       </div>
     </section>
 
@@ -88,13 +86,15 @@
       >
         <!-- heading -->
         <h2
-          class="text-4xl font-bold text-center text-[#0D2F80] md:text-center md:mb-14"
+          class="text-4xl font-bold sm:mt-6 mb-6 text-center text-[#0D2F80] md:text-center md:mb-14"
         >
           Explore all your agreement<br />
           solutions in one place.
         </h2>
         <!-- cards  -->
-        <div class="flex flex-col mt-2 ml-20 mb-10 md:flex-row md:space-x-6">
+        <div
+          class="flex flex-col text-center mt-2 sm:mx-auto md:ml-20 mb-10 md:flex-row md:space-x-6"
+        >
           <!-- card 1 -->
 
           <div class="max-w-sm bg-white rounded-lg mb-7 p-12">
@@ -195,13 +195,13 @@
         </h2>
         <!-- features of the app -->
         <div
-          class="flex flex-col text-center mt-11 ml-20 mb-10 md:flex-row md:space-x-14"
+          class="flex flex-col md:text-center md:mt-11 md:ml-20 md:mb-10 md:flex-row md:space-x-14"
         >
           <!-- left -->
           <div
-            class="flex flex-col mt-5 ml-20 mb-10 md:flex-col md:space-x-9 md:text-center"
+            class="flex flex-col ml-9 mt-8 md:mt-5 md:ml-20 md:mb-10 md:flex-col md:space-x-9 md:text-center"
           >
-            <div class="flex flex-row mb-16 md:my-5 md:mb-12 md:ml-8">
+            <div class="flex flex-row md:my-5 md:mb-12 md:ml-8">
               <img
                 class="w-16 mr-3"
                 src="icons/simple-calendar-svgrepo-com 1.png"
@@ -211,7 +211,7 @@
                 Super easy and<br />and simple to complete
               </p>
             </div>
-            <div class="flex flex-row mb-16">
+            <div class="flex flex-row sm:mt-5 md:mb-16">
               <img
                 class="w-16 mr-3"
                 src="icons/event-date-and-time-symbol-svgrepo-com 1.png"
@@ -223,9 +223,9 @@
 
           <!-- center -->
           <div
-            class="flex flex-col text-center mt-5 ml-20 mb-10 md:flex-col md:space-x-9"
+            class="flex flex-col ml-9 mt-8 md:mt-5 md:ml-20 md:mb-10 md:flex-col md:space-x-9"
           >
-            <div class="flex flex-row mb-16 md:my-5 md:mb-12 md:ml-8">
+            <div class="flex flex-row md:my-5 md:mb-12 md:ml-8">
               <img
                 class="w-16 mr-3"
                 src="icons/cost-effective-productive-svgrepo-com 1.png"
@@ -236,7 +236,7 @@
                 Effective
               </p>
             </div>
-            <div class="flex flex-row mb-16">
+            <div class="flex flex-row sm:mt-5 md:mb-16">
               <img
                 class="w-16 mr-3"
                 src="icons/time-svgrepo-com 1.png"
@@ -248,9 +248,9 @@
 
           <!-- right -->
           <div
-            class="flex flex-col text-center mt-5 ml-20 mb-10 md:flex-col md:space-x-9"
+            class="flex flex-col ml-9 mt-8 md:mt-5 md:ml-20 md:mb-10 md:flex-col md:space-x-9"
           >
-            <div class="flex flex-row mb-16 md:my-5 md:mb-12 md:ml-8">
+            <div class="flex flex-row md:my-5 md:mb-12 md:ml-8">
               <img
                 class="w-16 mr-3"
                 src="icons/download-svgrepo-com 1.png"
@@ -258,7 +258,7 @@
               />
               <p class="text-[#000] text-2xl">Download in<br />any format</p>
             </div>
-            <div class="flex flex-row mb-16">
+            <div class="flex flex-row sm:mt-5 md:mb-16">
               <img
                 class="w-16 mr-3"
                 src="icons/insert-template-svgrepo-com 1.png"
@@ -285,7 +285,7 @@
         >
           <!-- 1 -->
           <div
-            class="flex flex-col mt-5 ml-4 mb-10 md:space-x-9 md:text-center"
+            class="flex flex-col md:mt-5 ml-4 md:mb-10 md:space-x-9 md:text-center"
           >
             <div
               class="flex flex-col mb-16 md:my-5 md:mb-12 md:ml-8 md:flex-col"
@@ -295,13 +295,15 @@
                 src="Pictures/User count number.png"
                 alt=""
               />
-              <p class="text-[#000] text-2xl text-left ml-12">Users</p>
+              <p class="text-[#000] text-3xl md:text-2xl text-left ml-12">
+                Users
+              </p>
             </div>
           </div>
 
           <!-- 2 -->
           <div
-            class="flex flex-col mt-5 ml-4 mb-10 md:space-x-9 md:text-center"
+            class="flex flex-col md:mt-5 ml-4 md:mb-10 md:space-x-9 md:text-center"
           >
             <div
               class="flex flex-col mb-16 md:my-5 md:mb-12 md:ml-8 md:flex-col"
@@ -311,7 +313,7 @@
                 src="Pictures/Policy count 2.png"
                 alt=""
               />
-              <p class="text-[#000] text-2xl text-left">
+              <p class="text-[#000] text-3xl md:text-2xl text-left">
                 Policies generated<br />per day
               </p>
             </div>
@@ -319,7 +321,7 @@
 
           <!-- 3 -->
           <div
-            class="flex flex-col mt-5 ml-4 mb-10 md:space-x-9 md:text-center"
+            class="flex flex-col md:mt-5 ml-4 md:mb-10 md:space-x-9 md:text-center"
           >
             <div
               class="flex flex-col mb-16 md:my-5 md:mb-12 md:ml-8 md:flex-col"
@@ -329,11 +331,18 @@
                 src="Pictures/T_C Month count.png"
                 alt=""
               />
-              <p class="text-[#000] text-2xl text-left">
+              <p class="text-[#000] text-3xl md:text-2xl text-left">
                 Terms generated per<br />month
               </p>
             </div>
           </div>
+
+          <a
+            href="#"
+            class="text-4xl px-4 py-4 font-medium text-center md:hidden text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Generate Now
+          </a>
         </div>
       </div>
     </section>
@@ -341,20 +350,20 @@
     <!-- How Terms Creator works -->
     <section>
       <div
-        class="flex flex-col max-w-full px-5 pt-9 mx-auto text-center bg-[#e9eef8]"
+        class="flex flex-col max-w-full px-5 pt-9 mx-auto text-center md:bg-[#e9eef8]"
       >
         <h2
-          class="text-4xl font-bold text-center text-[#0D2F80] md:text-center md:mb-3"
+          class="md:text-4xl text-5xl font-bold text-center text-[#0D2F80] md:text-center md:mb-3"
         >
           How does TermsCreator Work?
         </h2>
         <div
-          class="container sector flex flex-col md:flex-row  items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+          class="container sector flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
         >
           <!-- left item  -->
           <div class="flex flex-col mt-1">
             <p
-              class="max-w-sm text-center mt-10 text-[#154ED5] md:text-2xl md:text-left md:max-w-xl"
+              class="max-w-md text-center text-2xl mt-10 text-[#154ED5] md:text-2xl md:text-left md:max-w-xl"
             >
               Don't worry, you don't need prior legal<br />
               experience. TermsCreator will walk you<br />
@@ -363,38 +372,46 @@
               create customized legal documents for<br />
               your business, app, website etc.
             </p>
-            <p class="max-w-sm text-center mt-10 text-[#2D2D2D] md:text-left">
+            <p
+              class="max-w-sm text-center sm:max-w-md sm:text-2xl mt-10 text-[#2D2D2D] md:text-left"
+            >
               Get your Terms & conditions and Privacy<br />
               Policy generated in few simple steps:
             </p>
 
-            <div class="flex flex-col md:flex-row md:mt-12 w-full md:justify-between sm:items-center ">
+            <div
+              class="flex flex-col mt-6 md:flex-row md:mt-12 w-full md:justify-between sm:items-center"
+            >
               <div class="w-1/8">
-                <p class="mb-6 font-normal text-[#154ED5]  ">
-                  Answer questions about
-                  your business, website.
-                </p>
-              </div>
-              <div class="w-1/8" >
-                <p class="mb-6 font-normal text-[#154ED5]  ">
-                  Choose your method of dispute
-                  resolution(a critical piece of any terms
-                  and conditions)
+                <p
+                  class="mb-6 font-normal sm:max-w-md sm:text-2xl text-[#154ED5]"
+                >
+                  Answer questions about your business, website.
                 </p>
               </div>
               <div class="w-1/8">
-                <p class="mb-6 font-normal text-[#154ED5] ">
-                  Give a few final details and add customization if
-                  needed
+                <p
+                  class="mb-6 font-normal sm:max-w-md sm:text-2xl text-[#154ED5]"
+                >
+                  Choose your method of dispute resolution(a critical piece of
+                  any terms and conditions)
+                </p>
+              </div>
+              <div class="w-1/8">
+                <p
+                  class="mb-6 font-normal sm:max-w-md sm:text-2xl text-[#154ED5]"
+                >
+                  Give a few final details and add customization if needed
                 </p>
               </div>
             </div>
 
             <a
-              href=""
-              class="mt-10 max-w-sm p-2 mb-2 text-center px-2 pt-2 baseline bg-[#154ED5] text-[#fff] rounded-md md:text-center md:w-80 md:mt-11 md:mb-2 md:py-2 md:ml-80 md:px-16"
-              >Get Started</a
+              href="#"
+              class="text-4xl px-4 py-4 font-medium text-center md:hidden text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
+              Generate Now
+            </a>
           </div>
           <!-- image -->
           <div class="md:mb-96">
@@ -410,32 +427,32 @@
     </section>
 
     <!--features section -->
-    <section id="features">
+    <section id="features" class="rick">
       <!-- Container to heading and features -->
-      <div
-        class="flex flex-col max-w-full px-5 pt-9 mx-auto text-center rick "
-      >
+      <div class="flex flex-col max-w-full px-5 pt-9 mx-auto text-center">
         <!-- heading -->
         <h2
-          class="text-4xl font-bold text-center text-white md:text-center md:mb-14"
+          class="text-4xl font-bold sm:pt-5 sm:max-w-md sm:mx-auto text-center text-white md:text-center md:mb-14"
         >
-          Here's what super awesome people <br> are saying about TermsCreator:
+          Here's what super awesome people <br />
+          are saying about TermsCreator:
         </h2>
         <!-- cards  -->
-        <div class="flex flex-col mt-6 ml-20 mb-10 md:flex-row md:space-x-6">
+        <div
+          class="flex flex-col sm:mx-auto mt-6 ml-20 mb-10 md:flex-row md:space-x-6"
+        >
           <!-- card 1 -->
           <div class="max-w-sm bg-white rounded-lg mb-7 p-12">
             <a href="#">
               <img class="w-48 ml-16 p-5" src="Pictures/User 1.png" alt="" />
             </a>
-            <div class="p-5 ">
-                <h5
-                  class="mb-2 text-2xl font-bold  text-black"
-                >
-                  Leslie <br> Alexander
-                </h5>
-                <p class="text-[#154ED5]">Copywriter</p>
-              
+            <div class="p-5">
+              <h5 class="mb-2 text-2xl font-bold text-black">
+                Leslie <br />
+                Alexander
+              </h5>
+              <p class="text-[#154ED5]">Copywriter</p>
+
               <p class="mb-6 font-normal text-black md:mt-12">
                 Have you ever created TOS for <br />
                 your API ? User friendly interface,<br />
@@ -449,16 +466,15 @@
             <a href="#">
               <img class="w-48 ml-16 p-5" src="Pictures/User 2.png" alt="" />
             </a>
-            <div class="p-5 ">
-                <h5
-                  class="mb-2 text-2xl font-bold  text-black"
-                >
-                  Tech Mama
-                </h5>
-                <p class="text-[#154ED5]">Blogger</p>
-              
+            <div class="p-5">
+              <h5 class="mb-2 text-2xl font-bold text-black">Tech Mama</h5>
+              <p class="text-[#154ED5]">Blogger</p>
+
               <p class="mb-6 font-normal text-black md:mt-12">
-                "Great! I use it often when<br> creating my legal docs."- <br> TechMama, blogger and founder of<br> TechMamas
+                "Great! I use it often when<br />
+                creating my legal docs."- <br />
+                TechMama, blogger and founder of<br />
+                TechMamas
               </p>
             </div>
           </div>
@@ -468,14 +484,10 @@
             <a href="#">
               <img class="w-48 ml-16 p-5" src="Pictures/User 3.png" alt="" />
             </a>
-            <div class="p-5 ">
-                <h5
-                  class="mb-2 text-2xl font-bold  text-black"
-                >
-                  Sam Doe
-                </h5>
-                <p class="text-[#154ED5]">Web Developer</p>
-              
+            <div class="p-5">
+              <h5 class="mb-2 text-2xl font-bold text-black">Sam Doe</h5>
+              <p class="text-[#154ED5]">Web Developer</p>
+
               <p class="mb-6 font-normal text-black md:mt-12">
                 The app has been amazing. I'm <br />
                 just learning, but it's easier than I<br />
@@ -485,70 +497,79 @@
               </p>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>
 
     <section>
-      <div  class="flex flex-col max-w-full px-5 pt-9 mx-auto text-center bg-[#051333]">
-        <h2 class="text-3xl font-bold text-center text-white md:text-[#c1cfef] md:text-center md:mb-4">
-          Provide your customers with legal <br> peace of mind and save time and money.
+      <div
+        class="flex flex-col max-w-full px-5 pt-9 mx-auto text-center bg-[#051333]"
+      >
+        <h2
+          class="text-3xl font-bold text-center  text-white md:text-[#c1cfef] md:text-center md:mb-4"
+        >
+          Provide your customers with legal <br />
+          peace of mind and save time and money.
         </h2>
 
         <a
-              href=""
-              class="mt-5 max-w-sm p-2 mb-2 text-center mx-auto px-8 pt-2 baseline bg-[#154ED5] text-[#fff] rounded-md md:text-center md:w-80 md:mt-11 md:mb-6 md:py-2 md:mx-auto md:px-16"
-              >Start Free Trial Now!</a
-            >
+          href=""
+          class="mt-5 max-w-sm p-2 mb-2 text-center mx-auto px-8 pt-2 baseline bg-[#154ED5] text-[#fff] rounded-md md:text-center md:w-80 md:mt-11 md:mb-6 md:py-2 md:mx-auto md:px-16"
+          >Start Free Trial Now!</a
+        >
 
-            <a
-              href=""
-              class="mt-2 max-w-sm p-2 mb-4 text-center px-8 pt-2 mx-auto baseline border-2 border-white border-[#fff] text-[#fff] rounded-md md:text-center md:w-80 md:mt-2 md:mb-20 md:py-2 md:mx-auto md:px-16"
-              >Start Free Trial Now!</a
-            >
+        <a
+          href=""
+          class="mt-2 max-w-sm p-2 mb-4 text-center px-8 pt-2 mx-auto baseline border-2  border-[#fff] text-[#fff] rounded-md md:text-center md:w-80 md:mt-2 md:mb-20 md:py-2 md:mx-auto md:px-16"
+          >Learn More Now</a
+        >
       </div>
     </section>
 
+    
+
+
+    <!-- Footer -->
     <footer class="bg-[#8caeff]">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col text-center justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0 md:space-x-28"
+        class="container flex text-center flex-col justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0 md:space-x-28"
       >
-        <!-- Logo outside container -->
+        <!-- Logo and social links container -->
         <div
           class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
         >
           <!-- Logo -->
           <div class="">
-            <img src="Logo/Logo Blue Yellow.png" class="h-14" alt="" />
+            <img src="Logo/Logo Blue Yellow.png" class="h-12 min-w-min" alt="" />
           </div>
         </div>
         <!-- List Container -->
-        <div class="flex flex-col text-2xl mt-6 text-center md:flex-row md:text-md justify-between space-x-32 md:ml-32">
-          <div class="flex flex-col mx-auto space-y-3 text-[#536181]">
-            <a href="#">About us</a>
-            <a href="#">Our Privacy Policy</a>
-            <a href="#">Our Terms of Use</a>
+        <div class="flex flex-col text-2xl  justify-around md:flex-row md:ml-32 md:space-x-32 ">
+          <div class="flex flex-col   space-y-3 text-[#536181]">
+            <a href="#" >About Us</a>
+            <a href="#" >Our Privacy Policy</a>
+            <a href="#" >Our Terms of Use</a>
           </div>
-          <div class="flex flex-col  mx-auto space-y-3 text-[#536181]">
-            <a href="#">Privacy Policy Generator</a>
-            <a href="#"
-              >Terms & Conditions<br />
-              Generator</a
-            >
-            <a href="#">FAQs</a>
+          <div class="flex flex-col mx-auto space-y-3  text-[#536181]">
+            <a href="#" >Privacy Policy Generator</a>
+            <a href="#" >Terms & Conditions<br />
+              Generator</a>
+            <a href="#" >FAQs</a>
           </div>
-          <div class="flex flex-col mx-auto space-y-3 text-[#536181]">
-            <a href="#">Help & Support</a>
-            <a href="#">Contact us</a>
-            <a href="#">Pricing Plan</a>
-            <a href="#">Resources</a>
-            <a href="#">Security FAQ</a>
+
+          <div class="flex flex-col  space-y-3  text-[#536181]">
+            <a href="#" >Help & Support</a>
+            <a href="#" >Contact us</a>
+            <a href="#" >Pricing Plan</a>
+            <a href="#" >Resources</a>
+            <a href="#" >Security FAQ</a>
           </div>
         </div>
+
+
       </div>
     </footer>
+
   </body>
 </html>
